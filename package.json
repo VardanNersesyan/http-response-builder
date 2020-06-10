@@ -16,7 +16,4 @@
     "url": "https://github.com/VardanNersesyan/http-response-builder/issues"
   },
   "homepage": "https://github.com/VardanNersesyan/http-response-builder#readme",
-  "dependencies": {
-    "http-foundation-response": "^1.0.0"
-  }
 }

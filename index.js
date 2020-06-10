@@ -1,10 +1,6 @@
-var HttpCodes = require('http-foundation-response');
-
 class ResponseBuilder {
-    data = {
-        status: HttpCodes.OK,
-        success: true,
-    };
+
+    data = {};
 
     addItem(item) {
         if (!item) {
@@ -67,5 +63,4 @@ class ResponseBuilder {
     }
 }
 
-exports.ResponseBuilder = ResponseBuilder;
-exports.HttpCodes = HttpCodes;
+module.exports = ResponseBuilder;
