@@ -1,0 +1,22 @@
+{
+  "name": "http-response-builder",
+  "version": "1.0.0",
+  "description": "This package provide ability to build http response from server side, it allows you to return an response according to one pattern when you work in a team.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VardanNersesyan/http-response-builder.git"
+  },
+  "author": "Vardan <nersesyan.v.a@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VardanNersesyan/http-response-builder/issues"
+  },
+  "homepage": "https://github.com/VardanNersesyan/http-response-builder#readme",
+  "dependencies": {
+    "http-foundation-response": "^1.0.0"
+  }
+}
