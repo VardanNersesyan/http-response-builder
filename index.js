@@ -48,6 +48,7 @@ class ResponseBuilder {
         }
 
         this.data.success = bool;
+        return this;
     }
 
     get() {
